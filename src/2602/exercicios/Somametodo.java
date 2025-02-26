@@ -4,10 +4,27 @@
  */
 package exercicios;
 
-/**
- *
- * @author GUSTAVO_4657
- */
 public class Somametodo {
+
+    
+    int a = 10;
+    int b = 10;
+    
+    
+    
+    void somar(){
+    
+    
+        int res =  a + b
+                
+        System.out.println("o valor da soma  é de "+res);
+    
+    
+    
+    }
+    
+    
+    
+    
     
 }
