@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package exercicios;
+package aula2603.metodos.exercicios;
 
 public class Somametodo {
 
@@ -15,7 +15,7 @@ public class Somametodo {
     void somar(){
     
     
-        int res =  a + b
+        int res =  a + b;
                 
         System.out.println("o valor da soma  é de "+res);
     

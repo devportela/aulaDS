@@ -1,5 +1,5 @@
 
-package metodos;
+package aula2603.metodos;
  
 
 import java.util.Scanner;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class calculadora {
 
     public static void main(String[] args) {
-               Scanner z = new Scanner(System.in);
+        Scanner z = new Scanner(System.in);
         operacoes x = new operacoes();
 
         
@@ -21,28 +21,25 @@ public class calculadora {
         System.out.println("4-DIVISAO");
 
       System.out.println("Digite o primeiro numero pra soma");
-        int n = z.nextInt();
+        int opcao = z.nextInt();
 
-         switch (n){
-            case  1:
+        switch (opcao){
+            case 1:
                 x.soma();
                 break;
-
-            case n = 2:
+            case 2:
                 x.subtracao();
                 break;
-
-            case n = 3:
+            case 3:
                 x.multiplicacao();
                 break;
-
-            case n = 4:
+            case 4:
                 x.dividir();
-
                 break;
 
-        
-    }
+
+
+        }
     }
 }
     

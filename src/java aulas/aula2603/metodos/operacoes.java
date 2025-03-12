@@ -1,4 +1,4 @@
-package metodos;
+package aula2603.metodos;
 
 import java.util.Scanner;
 
