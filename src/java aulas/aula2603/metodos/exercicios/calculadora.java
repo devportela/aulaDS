@@ -1,6 +1,6 @@
 
-package aula2603.metodos;
- 
+package aula2603.metodos.exercicios;
+
 
 import java.util.Scanner;
 
@@ -10,9 +10,6 @@ public class calculadora {
         Scanner z = new Scanner(System.in);
         operacoes x = new operacoes();
 
-        
-        
-           
         System.out.println("BEM VINDO");
         System.out.println("MENU DE OPERAÇÔES");
         System.out.println("1-ADICAO");
@@ -20,10 +17,10 @@ public class calculadora {
         System.out.println("3-MULTIPLICACAO");
         System.out.println("4-DIVISAO");
 
-      System.out.println("Digite o primeiro numero pra soma");
+        System.out.println("Digite a opcao desejada");
         int opcao = z.nextInt();
 
-        switch (opcao){
+        switch (opcao) {
             case 1:
                 x.soma();
                 break;
@@ -36,8 +33,6 @@ public class calculadora {
             case 4:
                 x.dividir();
                 break;
-
-
 
         }
     }

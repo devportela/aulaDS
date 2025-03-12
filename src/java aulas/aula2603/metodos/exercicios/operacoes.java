@@ -1,4 +1,4 @@
-package aula2603.metodos;
+package aula2603.metodos.exercicios;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class operacoes {
 
         int soma = a + b;
 
-        System.out.println("o valor da multiplicacao é " + soma);
+        System.out.println("o valor da adicao é " + soma);
 
     }
     
