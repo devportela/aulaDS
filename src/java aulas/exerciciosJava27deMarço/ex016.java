@@ -1,4 +1,4 @@
-package exerciciosJava;
+package exerciciosJava27deMarço;
 
 import java.util.Scanner;
 
