@@ -1,5 +1,8 @@
 package mesdeAbril.escola;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class escola  {
     public static void main(String[] args) {
       aluno cad = new aluno();
@@ -7,10 +10,6 @@ public class escola  {
       cad.setNome("Gustavo");
       cad.setIdade(29);
 
-        System.out.println("Seu nome é:"+cad.getNome() + "Sua idade: "+cad.getidade());
-
-
-
-
+    cad.enviarDados();
     }
 }
