@@ -10,6 +10,9 @@ public class quadrado {
 
     public double getArea() {
         return lado * lado;
+ 
+ 
+ 
     }
 }
 
